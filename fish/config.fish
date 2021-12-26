@@ -10,6 +10,8 @@ end
 #program shortcuts
 alias pac="sudo pacman -S"
 alias pacm="sudo pacman"
+alias nv="nvim"
+
 
 #wallpaper shortcuts
 alias bg="nitrogen --random --set-auto /media/wallpapers/random"
@@ -23,14 +25,15 @@ alias bgt="nitrogen --set-auto /media/wallpapers/cropped/treealone_cropped.jpg"
 
 
 #config shortcuts
-alias awesomec="nano ~/.config/awesome/rc.lua"
-alias fishc="nano ~/.config/fish/config.fish"
-alias kittyc="nano ~/.config/kitty/confbase.conf"
-alias rofic="nano ~/.config/rofi/config.rasi"
-alias i3c="nano ~/.config/i3/confbase"
-alias picomc="nano ~/.config/picom/picom.conf"
+alias awesomec="nvim ~/.config/awesome/rc.lua"
+alias fishc="nvim ~/.config/fish/config.fish"
+alias kittyc="nvim ~/.config/kitty/confbase.conf"
+alias rofic="nvim ~/.config/rofi/config.rasi"
+alias i3c="nvim ~/.config/i3/confbase"
+alias picomc="nvim ~/.config/picom/picom.conf"
 alias polybarc="cd ~/.config/polybar/"
-alias spicetifyc="nano ~/.config/spicetify/config-xpui.ini"
+alias spicetifyc="nvim ~/.config/spicetify/config-xpui.ini"
+alias nvc="nvim ~/.config/nvim/init.vim"
 
 #document shortcuts
 alias todo="nano ~/.todo"

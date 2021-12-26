@@ -219,6 +219,9 @@ default_border pixel 2
 default_floating_border pixel 2
 hide_edge_borders smart
 
+#custom containers
+bindsym $mod+o exec i3-msg open
+
 
 
 #workspace behaviour

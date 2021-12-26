@@ -1,3 +1,5 @@
+# random coloring and random icons for prompt
+
 function fish_prompt
 	if test -n "$SSH_TTY"
 		echo -n (set_color brred)"$USER"(set_color white)'@'(set_color yellow)(prompt_hostname)' '
